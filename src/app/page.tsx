@@ -69,6 +69,8 @@ export default function Home() {
 								href="#"
 								target="_blank"
 								rel="noopener noreferrer"
+								aria-label="Enlace a LinkedIn"
+								title="Enlace a LinkedIn"
 							>
 								<LinkedIn width={48} height={48} className="contactIcon" />
 							</a>
@@ -79,6 +81,8 @@ export default function Home() {
 								href="https://github.com/davidoreiro97"
 								target="_blank"
 								rel="noopener noreferrer"
+								aria-label="Enlace a Github"
+								title="Enlace a Github"
 							>
 								<GitHub width={48} height={48} className="contactIcon" />
 							</a>
@@ -89,6 +93,8 @@ export default function Home() {
 								href="https://wa.me/+5493417533746"
 								target="_blank"
 								rel="noopener noreferrer"
+								aria-label="Enlace a chat de Whatsapp"
+								title="Enlace a chat de Whatsapp"
 							>
 								<Whatsapp width={48} height={48} className="contactIcon" />
 							</a>

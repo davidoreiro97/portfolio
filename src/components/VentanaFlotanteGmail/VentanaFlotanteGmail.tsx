@@ -132,6 +132,8 @@ export const VentanaFlotanteGmail = ({ idBoton }: { idBoton: string }) => {
 					rel="noopener noreferrer"
 					role="link"
 					className="gmailWindow__btnCont__sendBtn"
+					aria-label="Enlace a Enviar mail"
+					title="Enlace a Enviar mail"
 				>
 					<SendIcon width={32} height={32} className="" />
 				</a>

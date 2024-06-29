@@ -75,6 +75,8 @@ export default function Home({ params }: { params: { lang: string } }) {
 								href="#"
 								target="_blank"
 								rel="noopener noreferrer"
+								aria-label="Enlace a LinkedIn"
+								title="Enlace a LinkedIn"
 							>
 								<LinkedIn width={48} height={48} className="contactIcon" />
 							</a>
@@ -85,6 +87,8 @@ export default function Home({ params }: { params: { lang: string } }) {
 								href="https://github.com/davidoreiro97"
 								target="_blank"
 								rel="noopener noreferrer"
+								aria-label="Enlace a GitHub"
+								title="Enlace a GitHub"
 							>
 								<GitHub width={48} height={48} className="contactIcon" />
 							</a>
@@ -95,6 +99,8 @@ export default function Home({ params }: { params: { lang: string } }) {
 								href="https://wa.me/+5493417533746"
 								target="_blank"
 								rel="noopener noreferrer"
+								aria-label="Enlace a Whatsapp"
+								title="Enlace a Whatsapp"
 							>
 								<Whatsapp width={48} height={48} className="contactIcon" />
 							</a>
