@@ -1,14 +1,12 @@
 import { MetadataRoute } from "next";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-	//Para la fecha de ultima actualización
-	const currentDate = new Date();
-	// Formatear la fecha en el formato ISO8601 requerido por lastModified
-	const lastModifiedDate = currentDate.toISOString();
+	const currentDate = new Date().toISOString();
 	return [
 		{
 			url: "https://davidoreiro97.github.io/portfolio",
 			changeFrequency: "never",
-			lastModified: lastModifiedDate,
+			lastModified: currentDate,
 			priority: 1,
 			alternates: {
 				languages: {
@@ -20,7 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 		{
 			url: "https://davidoreiro97.github.io/portfolio/proyectos",
 			changeFrequency: "never",
-			lastModified: lastModifiedDate,
+			lastModified: currentDate,
 			priority: 0.9,
 			alternates: {
 				languages: {
@@ -32,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 		{
 			url: "https://davidoreiro97.github.io/portfolio/habilidades",
 			changeFrequency: "never",
-			lastModified: lastModifiedDate,
+			lastModified: currentDate,
 			priority: 0.8,
 			alternates: {
 				languages: {
@@ -42,9 +40,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			},
 		},
 		{
-			url: "https://davidoreiro97.github.io/portfolio//certificaciones",
+			url: "https://davidoreiro97.github.io/portfolio/certificaciones",
 			changeFrequency: "never",
-			lastModified: lastModifiedDate,
+			lastModified: currentDate,
 			priority: 0.7,
 			alternates: {
 				languages: {
