@@ -34,8 +34,10 @@ export const metadata: Metadata = {
 	},
 	robots: "index,follow",
 	category: "Web development",
+	other: {
+		"google-site-verification": "1PQnYCmE7Ryp_YW9xWhdkWm3LN7aiEKulS9-EpOvihY",
+	},
 };
-
 export default function RootLayout({
 	children,
 }: Readonly<{
