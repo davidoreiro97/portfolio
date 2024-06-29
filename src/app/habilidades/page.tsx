@@ -148,7 +148,7 @@ export default function Habilidades() {
 						className={styles.apuntesCont__img}
 						width={200}
 						height={245}
-						src="../../images/avif/fotoPerfilBienvenida.avif"
+						src="/portfolio/images/avif/fotoPerfilBienvenida.avif"
 						alt="Foto de perfil"
 					/>
 
