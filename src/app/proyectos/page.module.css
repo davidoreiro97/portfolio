@@ -1,0 +1,26 @@
+.proyectosContainer {
+	width: 100%;
+	min-height: 66.2vh;
+	display: flex;
+	justify-content: center;
+}
+.proyectosContainer__align {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-top: 20px;
+	gap: 2%;
+}
+@media (max-width: 824px) {
+	.proyectosContainer__align {
+		gap: 1%;
+	}
+}
+@media (max-width: 450px) {
+	.proyectosContainer__align {
+		justify-content: center;
+	}
+}

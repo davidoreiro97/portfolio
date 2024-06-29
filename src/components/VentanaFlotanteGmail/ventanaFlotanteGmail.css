@@ -1,0 +1,87 @@
+.gmailWindow {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	background: var(--fondoPantalla);
+	position: absolute;
+	bottom: 100%;
+	right: 0px;
+	overflow-y: hidden;
+	z-index: 20;
+	box-shadow: inset 0px 0px 10px 2px black;
+	padding-bottom: 10px;
+}
+.gmailWindow__tituloCont {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background: repeating-linear-gradient(0deg, #ffe500 0%, #fff387 100%);
+	border: 2px solid black;
+}
+.gmailWindow__tituloCont__h4 {
+	font-family: "willowbody";
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: black;
+	padding: 4px;
+}
+.gmailWindow__tituloCont__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "willowbody";
+	font-weight: 300;
+	font-size: 16px;
+	padding: 0px 15px;
+	color: white;
+	background: radial-gradient(circle, #ff3333 0%, #ad4343 100%);
+}
+.gmailWindow__tituloCont__btn:hover {
+	filter: brightness(1.2);
+}
+.gmailWindow__Txt {
+	font-size: clamp(14px, 1.2vh + 1.1vw, 24px);
+	font-family: "willowbody";
+	font-weight: 300;
+	color: white;
+	-webkit-text-stroke: 0.25px black;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1), -1px -1px 1px rgba(0, 0, 0, 1),
+		1px -1px 1px rgba(0, 0, 0, 1), -1px 1px 1px rgba(0, 0, 0, 1);
+	padding: 8px 10px;
+}
+.gmailWindow__btnCont {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	gap: 18px;
+}
+.gmailWindow__btnCont__CopyCont {
+	position: relative;
+	width: fit-content;
+}
+.gmailWindow__btnCont__CopyCon__msj {
+	position: absolute;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	top: 50%;
+	right: 50%;
+	transform: translateX(50%) translateY(calc(-50% - 4px));
+	z-index: 20;
+}
+.gmailWindow__btnCont__CopyCon__copyBtn,
+.gmailWindow__btnCont__sendBtn {
+	position: relative;
+	cursor: pointer;
+	padding: 4px 14px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background: var(--fondoBotones);
+	overflow: hidden;
+	box-shadow: 0px 0px 9px 1px var(--colorSombraBoton);
+}
+.hidden {
+	display: none;
+}

@@ -1,0 +1,220 @@
+@font-face {
+	/* Para el body */
+	font-family: "willowbody";
+	src: url("../../public/fonts/willowbody_0-webfont.ttf");
+}
+@font-face {
+	/* Para titulos */
+	font-family: "compacta-bold";
+	src: url("../../public/fonts/compacta-bold.otf");
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+:root {
+	/* light mode */
+	--colorHeaderCertificacionStart: #4f9fd0;
+	--colorHeaderCertificacionFin: #28516a;
+	--colorFondoDetallesCertificaciones: #325868;
+	--colorTituloGradienteStart: #91f3fb;
+	--colorTituloGradienteEnd: #45ace7;
+	--colorIconosExpProyUni: #00c2ff;
+	--colorBordeExpProyUniStart: #ffe500;
+	--colorBordeExpProyUniEnd: #fff387;
+	--colorIconsGmail: white;
+	--colorFondoCuadradoStart: #ffe500;
+	--colorFondoCuadradoEnd: #fff387;
+	--colorTituloCartel: #9bd0d4;
+	--colorIconoContactStart: #91b5de;
+	--colorIconoContactEnd: #37c6f6;
+	--backgroundBody: radial-gradient(circle, #64b4ce, #4c5a7e);
+	--fondoPantalla: radial-gradient(circle, #3f578e, #302c43);
+	--fondoBotones: radial-gradient(circle, #17d6ff 0%, #00afd4 100%);
+	--LineasfondoBotones: repeating-linear-gradient(
+		0deg,
+		#00c3ff83 0%,
+		#fbf6f6 10%,
+		#00c3ff83 20%,
+		#fbf6f6 30%,
+		#00c3ff83 40%,
+		#fbf6f6 50%,
+		#00c3ff83 60%,
+		#fbf6f6 70%,
+		#00c3ff83 80%,
+		#fbf6f6 90%,
+		#00c3ff83 100%
+	);
+	--colorSombraBoton: #17d6ff;
+	--colorMenuSeccionActiva: #ffe816;
+	--opacidadLineasBoton: 0.4;
+	--gradiente-svgBorde-inicio: #376ea4;
+	--gradiente-svgBorde-fin: #6fa9c8;
+	--colorDiamante1: #00ffff88; /*Para el fondo del menú mobile*/
+	--colorDiamante2: #007f98; /*Para el fondo del menú mobile*/
+}
+[data-theme="dark"] {
+	/* dark mode */
+	--colorHeaderCertificacionStart: #eca53b;
+	--colorHeaderCertificacionFin: #d07d00;
+	--colorFondoDetallesCertificaciones: #543302;
+	--colorTituloGradienteStart: #eca53b;
+	--colorTituloGradienteEnd: #ffd600;
+	--colorIconosExpProyUni: #ff9a03;
+	--colorBordeExpProyUniStart: #eca53b;
+	--colorBordeExpProyUniEnd: #d07d00;
+	--colorIconsGmail: black;
+	--colorFondoCuadradoStart: #eca53b;
+	--colorFondoCuadradoEnd: #ffd600;
+	--colorTituloCartel: #ffd600;
+	--backgroundBody: radial-gradient(circle, #2d2d2c, #212121);
+	--fondoPantalla: radial-gradient(circle, #77592b, #362914);
+	--gradiente-svgBorde-inicio: #d07d00;
+	--gradiente-svgBorde-fin: #eca53b;
+	--colorIconoContactStart: #eca53b;
+	--colorIconoContactEnd: #d07d00;
+	--colorDiamante1: #ff9900a3; /* Color neón principal */
+	--colorDiamante2: #f5930070; /* Color neón secundario */
+	--fondoBotones: radial-gradient(circle, #ffe500 0%, #fff387 100%);
+	--LineasfondoBotones: repeating-linear-gradient(
+		0deg,
+		#ffffff 0%,
+		#aaaaaa 10%,
+		#ffffff 20%,
+		#aaaaaa 30%,
+		#ffffff 40%,
+		#aaaaaa 50%,
+		#ffffff 60%,
+		#aaaaaa 70%,
+		#ffffff 80%,
+		#aaaaaa 90%,
+		#ffffff 100%
+	);
+	--colorSombraBoton: #eca53b;
+	--opacidadLineasBoton: 0.2;
+}
+body {
+	background: var(--backgroundBody);
+	min-height: 100vh;
+}
+
+/* -------------------- Clases globales -------------------- */
+/* Para quitar el scroll cuando se abre el menu responsivo. */
+.no-scroll {
+	overflow: hidden;
+}
+.textoResaltado {
+	color: #f8e326;
+	-webkit-text-stroke: 0.5px black;
+}
+
+/* Lineas para el efecto pantalla con ruido, modificar en cada componente*/
+.lineas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200%; /* Aumentar la altura para lineas mas grandes */
+	background: repeating-linear-gradient(
+		0deg,
+		#000000 0%,
+		#ffffff 2.5%,
+		#000000 5%,
+		#ffffff 7.5%,
+		#000000 10%,
+		#ffffff 12.5%,
+		#000000 15%,
+		#ffffff 17.5%,
+		#000000 20%,
+		#ffffff 22.5%,
+		#000000 25%,
+		#ffffff 27.5%,
+		#000000 30%,
+		#ffffff 32.5%,
+		#000000 35%,
+		#ffffff 37.5%,
+		#000000 40%,
+		#ffffff 42.5%,
+		#000000 45%,
+		#ffffff 47.5%,
+		#000000 50%,
+		#ffffff 52.5%,
+		#000000 55%,
+		#ffffff 57.5%,
+		#000000 60%,
+		#ffffff 62.5%,
+		#000000 65%,
+		#ffffff 67.5%,
+		#000000 70%,
+		#ffffff 72.5%,
+		#000000 75%,
+		#ffffff 77.5%,
+		#000000 80%,
+		#ffffff 82.5%,
+		#000000 85%,
+		#ffffff 87.5%,
+		#000000 90%,
+		#ffffff 92.5%,
+		#000000 95%,
+		#ffffff 97.5%,
+		#000000 100%
+	);
+	background-size: 100% 50%; /* Ajustar el tamaño del fondo para tener más líneas */
+	animation: moveLines 45s linear infinite;
+	opacity: 0.05; /* Para hacer las líneas más sutiles */
+	pointer-events: none; /* Permite que los clicks pasen sin importar que este delante del texto o botones */
+}
+@keyframes moveLines {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(-50%);
+	}
+}
+.lineasContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 0;
+	pointer-events: none;
+}
+
+/* Estilos para el not found */
+.Cont404 {
+	width: 100%;
+	height: 100%;
+	min-height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Compacta-Bold";
+	color: white;
+	-webkit-text-stroke: 1px black;
+	font-size: 10px;
+}
+.Cont404__404 {
+	font-family: "Compacta-Bold";
+	color: white;
+	font-size: 16em;
+}
+.Cont404__notFound {
+	font-family: "Compacta-Bold";
+	font-size: 8em;
+}
+@media (max-width: 900px) {
+	.Cont404 {
+		font-size: 7px;
+	}
+}
+
+@media (max-width: 600px) {
+	.Cont404 {
+		font-size: 5px;
+	}
+}

@@ -1,0 +1,65 @@
+.conjuntoCertCont {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: clamp(4px, calc(0.5vw + 0.5vh), 8px);
+	padding: 30px 4%;
+	background: var(--fondoPantalla);
+	font-size: 10px;
+	box-shadow: inset 0px 0px 16px 10px black;
+	border: 2px solid black;
+}
+
+.conjuntoCertCont__header {
+	position: absolute;
+	top: -2.5em;
+	left: 18px;
+}
+.conjuntoCertCont__header__h2 {
+	position: absolute;
+	font-family: "compacta-bold";
+	background: linear-gradient(
+		to top,
+		var(--colorTituloGradienteStart),
+		var(--colorTituloGradienteEnd)
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.6px black;
+	backdrop-filter: blur(1px);
+	height: fit-content;
+	text-wrap: nowrap;
+	white-space: nowrap;
+	font-size: 36px;
+	z-index: 5;
+}
+@media (max-width: 900px) {
+	.conjuntoCertCont__header {
+		position: absolute;
+		top: -2em;
+	}
+	.conjuntoCertCont__header__h2 {
+		font-size: 28px;
+	}
+	.conjuntoCertCont {
+		padding: 20px 4%;
+	}
+}
+@media (max-width: 600px) {
+	.conjuntoCertCont {
+		border-radius: 15px;
+	}
+}
+@media (max-width: 320px) {
+	.conjuntoCertCont__header {
+		position: absolute;
+		top: -1.8em;
+		left: 14px;
+	}
+	.conjuntoCertCont__header__h2 {
+		font-size: 24px;
+	}
+}

@@ -1,0 +1,75 @@
+.contenedorSecciones {
+	position: relative;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.subconjuntoCont {
+	position: relative;
+	width: 100%;
+	background: var(--fondoPantalla);
+	font-size: 10px;
+	box-shadow: inset 0px 0px 15px 3px black;
+	border: 2px solid black;
+	border-top: 0px;
+	padding-bottom: 20px;
+	border-top-right-radius: 15px;
+}
+
+.subconjuntCont__header {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.subconjuntCont__header__h3 {
+	position: relative;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	margin-bottom: 10px;
+	padding-left: 12px;
+	font-family: "willowbody";
+	text-transform: uppercase;
+	font-size: 1.4em;
+	z-index: 5;
+}
+.subconjuntCont__textCont {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 6%;
+}
+.subconjuntCont__textCont__p {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	font-size: 2em;
+	font-family: "willowbody";
+	font-weight: 300;
+	color: white;
+	text-wrap: nowrap;
+	white-space: nowrap;
+	padding-left: 1em;
+	-webkit-text-stroke: 0.2px black;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1), -1px -1px 1px rgba(0, 0, 0, 1),
+		1px -1px 1px rgba(0, 0, 0, 1), -1px 1px 1px rgba(0, 0, 0, 1); /* Sombra para dar efecto "stroke" */
+}
+.subconjuntCont__textCont__p__simbolo {
+	font-size: 0.5em;
+	padding-bottom: 4px;
+	padding-right: 8px;
+}
+
+@media (max-width: 600px) {
+	.contenedorSecciones {
+		width: 90%;
+		gap: 16px;
+	}
+	.subconjuntCont__textCont__p {
+		font-size: 1.4em;
+		width: 50%;
+	}
+	.subconjuntCont__textCont {
+		gap: 0%;
+	}
+}

@@ -1,0 +1,28 @@
+.certContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sectionsContainer {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	max-width: 1200px;
+	gap: 40px;
+}
+@media (max-width: 900px) {
+	.sectionsContainer {
+		width: 90%;
+		gap: 30px;
+	}
+}
+@media (max-width: 600px) {
+	.sectionsContainer {
+		width: 98%;
+		gap: 30px;
+	}
+}

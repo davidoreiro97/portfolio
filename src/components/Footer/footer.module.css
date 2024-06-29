@@ -1,0 +1,43 @@
+.footer {
+	margin-top: 10vh;
+	position: relative;
+	width: 100%;
+	background: var(--fondoPantalla);
+}
+.footer__nav {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: space-between;
+	justify-content: center;
+	gap: 10px;
+	padding-top: 16px;
+}
+.footer__nav__gmailContainer {
+	position: relative;
+	height: fit-content;
+}
+.footer__nav__item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: 0px;
+	cursor: pointer;
+}
+
+.lineasFooter {
+	background-size: 100% 100%; /* Ajustar el tamaño del fondo para tener más líneas */
+	animation: moveLines 45s linear infinite;
+	opacity: 0.1; /* Para hacer las líneas más sutiles */
+	pointer-events: none; /* Permite que los clicks pasen sin importar que este delante del texto o botones */
+}
+@keyframes moveLines {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(-50%);
+	}
+}
