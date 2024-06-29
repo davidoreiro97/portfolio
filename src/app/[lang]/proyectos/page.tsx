@@ -11,7 +11,7 @@ export default function Proyectos({ params }: { params: { lang: string } }) {
 			<div className={styles.proyectosContainer__align}>
 				<Proyecto
 					titulo={idioma.proyectos_titulo_1}
-					urlImagenMuestra="../../images/avif/proyectoUno.avif"
+					urlImagenMuestra="/portfolio/images/avif/proyectoUno.avif"
 					detalles={idioma.proyectos_detalles_1}
 					urlSitioWeb="https://rosarioherreria.netlify.app/"
 					disabled={false}

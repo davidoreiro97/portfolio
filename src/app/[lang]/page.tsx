@@ -51,7 +51,7 @@ export default function Home({ params }: { params: { lang: string } }) {
 						className={styles.bienvenidaCont__ImgTxtCont__Img}
 						width={200}
 						height={245}
-						src="../../images/avif/fotoPerfilBienvenida.avif"
+						src="/portfolio/images/avif/fotoPerfilBienvenida.avif"
 						alt="Foto de perfil"
 					/>
 					<div className={styles.bienvenidaCont__ImgTxtCont__TxtCont}>
