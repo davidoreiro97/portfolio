@@ -1,6 +1,6 @@
 .proyectosContainer {
 	width: 100%;
-	min-height: 66.2vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 }
