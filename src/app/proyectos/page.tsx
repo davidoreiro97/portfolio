@@ -16,6 +16,9 @@ export default function Proyectos() {
 					textoBtn_visitar={idioma.proyectos_texto_btn_visitar}
 					textoHeaderVentanaDetalles={idioma.proyectos_titulo_ventanaFlotante}
 				/>
+				{/* Github pages tiene problema con las rutas relativas, se cambio : 
+					../../images/avif/proyectoUno.avif
+					a ./images/avif/proyectoUno.avif*/}
 			</div>
 		</article>
 	);
