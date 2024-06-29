@@ -1,48 +1,57 @@
 import { MetadataRoute } from "next";
-const urlBaseWeb = "https://davidoreiro97.github.io/portfolio";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	//Para la fecha de ultima actualización
 	const currentDate = new Date();
 	// Formatear la fecha en el formato ISO8601 requerido por lastModified
 	const lastModifiedDate = currentDate.toISOString();
-	// Si tenemos una página multiidioma debemos utilizar el atributo alternates
-	// para especificar la página alternativa en dicho idioma.
-	function generarAlternativa(urlSeccion: string) {
-		return {
-			languages: {
-				es: `${urlBaseWeb}/${urlSeccion}`,
-				en: `${urlBaseWeb}/en/${urlSeccion}`,
-			},
-		};
-	}
 	return [
 		{
-			url: urlBaseWeb,
+			url: "https://davidoreiro97.github.io/portfolio",
 			changeFrequency: "never",
 			lastModified: lastModifiedDate,
 			priority: 1,
-			alternates: generarAlternativa(""),
+			alternates: {
+				languages: {
+					es: "https://davidoreiro97.github.io/portfolio",
+					en: "https://davidoreiro97.github.io/portfolio/en",
+				},
+			},
 		},
 		{
-			url: `${urlBaseWeb}/proyectos`,
+			url: "https://davidoreiro97.github.io/portfolio/proyectos",
 			changeFrequency: "never",
 			lastModified: lastModifiedDate,
 			priority: 0.9,
-			alternates: generarAlternativa("proyectos"),
+			alternates: {
+				languages: {
+					es: "https://davidoreiro97.github.io/portfolio/proyectos",
+					en: "https://davidoreiro97.github.io/portfolio/en/proyectos",
+				},
+			},
 		},
 		{
-			url: `${urlBaseWeb}/habilidades`,
+			url: "https://davidoreiro97.github.io/portfolio/habilidades",
 			changeFrequency: "never",
 			lastModified: lastModifiedDate,
 			priority: 0.8,
-			alternates: generarAlternativa("habilidades"),
+			alternates: {
+				languages: {
+					es: "https://davidoreiro97.github.io/portfolio/habilidades",
+					en: "https://davidoreiro97.github.io/portfolio/en/habilidades",
+				},
+			},
 		},
 		{
-			url: `${urlBaseWeb}/certificaciones`,
+			url: "https://davidoreiro97.github.io/portfolio//certificaciones",
 			changeFrequency: "never",
 			lastModified: lastModifiedDate,
 			priority: 0.7,
-			alternates: generarAlternativa("certificaciones"),
+			alternates: {
+				languages: {
+					es: "https://davidoreiro97.github.io/portfolio/certificaciones",
+					en: "https://davidoreiro97.github.io/portfolio/en/certificaciones",
+				},
+			},
 		},
 	];
 }
