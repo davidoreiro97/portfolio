@@ -42,12 +42,12 @@ export default function Home() {
 						className={styles.bienvenidaCont__ImgTxtCont__Img}
 						width={200}
 						height={245}
-						src="./images/avif/fotoPerfilBienvenida.avif"
+						src="/portfolio/images/avif/fotoPerfilBienvenida.avif"
 						alt="Foto de perfil"
 					/>
 					{/* Github pages tiene problema con las rutas relativas, se cambio : 
 					../../images/avif/fotoPerfilBienvenida.avif
-					a ./images/avif/fotoPerfilBienvenida.avif*/}
+					a /portfolio/images/avif/fotoPerfilBienvenida.avif*/}
 					<div className={styles.bienvenidaCont__ImgTxtCont__TxtCont}>
 						<p className={styles.bienvenidaCont__ImgTxtCont__TxtCont__p}>
 							<strong
