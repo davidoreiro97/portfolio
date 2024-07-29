@@ -20,7 +20,19 @@ export const Menu = () => {
 	};
 
 	const pathname = usePathname();
-
+	useEffect(() => {
+		window.addEventListener("resize", handleResize);
+		// Cleanup listener on component unmount
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		};
+	}, []);
+	const handleResize = () => {
+		if (window.innerWidth > 600) {
+			setMenuHamburguesaAbierto(false);
+			document.body.classList.remove("no-scroll");
+		}
+	};
 	useEffect(() => {
 		if (menuHamburguesaAbierto) {
 			document.body.classList.add("no-scroll");

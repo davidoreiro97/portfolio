@@ -211,6 +211,9 @@
 		border-bottom-left-radius: 30px;
 		border-top-right-radius: 30px;
 	}
+	.contenedorMenuRelative {
+		height: fit-content;
+	}
 	.menu__open {
 		position: fixed;
 		display: flex;
