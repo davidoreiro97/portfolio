@@ -1,12 +1,12 @@
 {
-	"metadata_description_inicio": "Te doy la bienvenida a mi Portfolio!. Soy David Oreiro, desarrollador web fullstack Jr. con React, Next.js, Node, Express, MySQL y otras tecnologías. También soy estudiante avanzado de ingeniería en sistemas de información.",
+	"metadata_description_inicio": "Te doy la bienvenida a mi Portfolio!. Soy David Oreiro, desarrollador web fullstack Jr. con React, Next.js, Node, Express, MySQL y otras tecnologías. También soy estudiante avanzado de Ingeniería en Sistemas de Información.",
 	"metadata_description_proyectos": "Aqui podras encontrar todos mis proyectos tanto terminados como en los que me encuentro trabajando junto con sus detalles, repositorio y enlace para visitarlos.",
 	"metadata_description_habilidades": "Aqui podras encontrar todas mis habilidades, muchas obtenidas de forma autodidacta y otras mediante cursos los cuales puedes encontrar en la sección de certificaciones, también puedes encontrar mis apuntes al pie de la sección.",
 	"metadata_description_certificaciones": "Aqui podras encontrar todas mis certificaciones obtenidas a lo largo del tiempo, cuentan con su detalle, su link al contenido y el certificado de finalización.",
-	"inicio_titulo_bienvenidos": "BIENVENIDOS!",
+	"inicio_titulo_bienvenidos": "¡BIENVENIDOS!",
 	"inicio_texto_bienvenidos_1": "Te doy la bienvenida a mi Portfolio!",
 	"inicio_texto_bienvenidos_2": "Soy David Oreiro, desarrollador web fullstack Jr.",
-	"inicio_texto_bienvenidos_3": "y estudiante de 4° año de la carrera de ingeniería en sistemas de información.",
+	"inicio_texto_bienvenidos_3": "y estudiante de 4° año de la carrera de Ingeniería en Sistemas de Información.",
 
 	"inicio_texto_MySQL": "SGBD",
 	"inicio_texto_stack": "Otras tecnologías :",
@@ -24,7 +24,7 @@
 	"inicio_url_proyExpUni_proy": "/proyectos",
 
 	"inicio_titulo_proyExpUni_uni": "UNIVERSIDAD",
-	"inicio_text_proyExpUni_uni": "UTN - Ing. en sistemas de información",
+	"inicio_text_proyExpUni_uni": "UTN - Ing. en Sistemas de Información",
 	"inicio_text_proyExpUni_uni_btn": "VER CERTIFICACIONES",
 	"inicio_url_proyExpUni_uni": "/certificaciones",
 
