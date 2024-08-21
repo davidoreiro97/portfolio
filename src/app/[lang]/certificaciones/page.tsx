@@ -1,20 +1,14 @@
-import getDictionary from "@/functions/getDictionary";
-import styles from "./page.module.css";
 import { ConjuntoCertificaciones } from "@/components/ConjuntoCertificaciones/ConjuntoCertificaciones";
-export async function generateStaticParams() {
-	return [{ lang: "en" }];
-}
-export default function Certificaciones({
-	params,
-}: {
-	params: { lang: string };
-}) {
+import styles from "./page.module.css";
+import getDictionary from "@/functions/getDictionary";
+export default function Certificaciones() {
 	const idioma = getDictionary("en");
 	return (
 		<div className={styles.certContainer}>
 			<article className={styles.sectionsContainer}>
 				<ConjuntoCertificaciones
 					tituloConjunto={idioma.certificaciones_titulo_1}
+					// Esto debería pasarlo a un json
 					certificaciones={[
 						{
 							tituloCert: "Web Development Fundamentals - IBM SkillsBuild",
@@ -34,6 +28,16 @@ export default function Certificaciones({
 								"https://www.argentina.gob.ar/sites/default/files/ok._introduccion_desarrollador_web_inicial_-_universidad_tecnologica_nacional_utn.pdf",
 							linkACertificado:
 								"https://drive.google.com/file/d/1Yef76SZYgDS8yp50SLmzUhcB0H-82ZEb/view?usp=drive_link",
+						},
+						{
+							tituloCert:
+								"ORACLE + Alura Latam - Certificado de finalización del programa",
+							descripcionCert:
+								"Certificado de finalización de capacitación en Alura. - Las 6 formaciones mencionadas son : Desarrollo Personal G6 - ONE, Principiante en programación G6 - ONE, Proximos Pasos ONE Grupo 6 (G6) - Etapa Especialización, Emprendimiento, Agilidad y Protagonismo Profesional G6 - ONE, Front End G6 - ONE, React G6 - ONE",
+							linkAContenido:
+								"https://www.oracle.com/ar/education/oracle-next-education/",
+							linkACertificado:
+								"https://drive.google.com/file/d/1HfPoneMsOXw8o8z72E-VujaI2AWataaP/view",
 						},
 						{
 							tituloCert: "Programacion Web - Aprendizaje virtual",
@@ -328,6 +332,83 @@ export default function Certificaciones({
 					tituloConjunto={idioma.certificaciones_titulo_2}
 					certificaciones={[
 						{
+							tituloCert: "Cloud Computing Fundamentals - IBM SkillsBuild",
+							descripcionCert:
+								"This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security. The individual is aware of cloud benefits for users and businesses. The individual has a conceptual understanding of how to create a container, deploy a web app to the cloud, and analyze security in a simulated environment. The earner is aware of the job outlook in cloud computing and the skills required for success in various roles.",
+							linkAContenido:
+								"https://skills.yourlearning.ibm.com/credential/CREDLY-fd600bd9-7565-458c-b5d2-7b5b8b856eeb",
+							linkACertificado:
+								"https://www.credly.com/badges/9b034b77-a682-4b2f-ad46-8827c6471e29/public_url",
+						},
+						{
+							tituloCert:
+								"ADMINISTRACIÓN DE MYSQL: SEGURIDAD Y OPTIMIZACIÓN DE LA BASE DE DATOS - PARTE 1",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos: - Recuperación de la base de datos. - Papel del DBA. - Tuning y mecanismos de almacenamiento. - Usando mecanismos de almacenamiento y directorios. - Back-up de la base de datos",
+							linkAContenido:
+								"https://www.aluracursos.com/curso-online-mysql-seguridad-optmizacion-base-datos-parte1",
+							linkACertificado:
+								"https://drive.google.com/file/d/1qoI1SekXzh9m-WdpM8XLaeqsS3UCwkBU/view?usp=sharing",
+						},
+						{
+							tituloCert:
+								"ADMINISTRACIÓN DE MYSQL: SEGURIDAD Y OPTIMIZACIÓN DE LA BASE DE DATOS - PARTE 2",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos: - Plan de ejecución. - Índices. - Trabajando con índices y Mysqlslap. - Gestión de usuarios. - Gestión de privilegios.",
+							linkAContenido:
+								"https://www.aluracursos.com/curso-online-mysql-seguridad-optmizacion-base-datos-parte2",
+							linkACertificado:
+								"https://drive.google.com/file/d/1wmqB76H7nfrkdIWrUICn_3volxJXUGf5/view?usp=sharing",
+						},
+						{
+							tituloCert: "COMANDOS DML: MANIPULACIÓN DE DATOS CON MYSQL",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos : - Modelaje de la base de datos. - Creando la estructura de la base de datos. - Incluyendo datos en las tablas. - Alterando y excluyendo datos existentes en las tablas. - Autoincremento, patrones y triggers.",
+							linkAContenido:
+								"https://app.aluracursos.com/course/comandos-dml-manipulacion-datos-mysql",
+							linkACertificado:
+								"https://drive.google.com/file/d/12pwm4L9an_QcMlJhEzAlZ0TGROiNQWcZ/view?usp=sharing",
+						},
+						{
+							tituloCert: "Consultas SQL: Avanzando en SQL con MySQL",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos: - Configurando el ambiente y conociendo SQL. - Filtrando las consultas de los datos. - Presentación de los datos de una consulta. - Uniendo tablas y consultas. - Funciones de MySQL. - Ejemplos de informes.",
+							linkAContenido:
+								"https://app.aluracursos.com/course/consultas-sql-mysql",
+							linkACertificado:
+								"https://drive.google.com/file/d/17G6QMVEGpS4ezgKzMItxN0sTgbCUoDNF/view?usp=sharing",
+						},
+						{
+							tituloCert:
+								"INTRODUCCIÓN A SQL CON MYSQL: MANIPULE Y CONSULTE DATOS",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos: - Instalando y configurando MySQL. - Manipulando la base de datos. - Administrando las tablas de la base de datos. - Mantenimiento de los datos en las tablas. - Consultando los datos.",
+							linkAContenido:
+								"https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos",
+							linkACertificado:
+								"https://drive.google.com/file/d/1SSHP9E2LGk9l4TRaKrkeOBBfT9pLAb7N/view?usp=sharing",
+						},
+
+						{
+							tituloCert: "PROCEDURES SQL: EJECUTANDO CÓDIGO EN MYSQL",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos: - Preparando el Ambiente. - Stored Procedures básico. - Interacciones con la base de datos. - Control de flujo. - Cursor y función.",
+							linkAContenido:
+								"https://app.aluracursos.com/course/procedures-sql-codigo-mysql",
+							linkACertificado:
+								"https://drive.google.com/file/d/18ky_bGunF1V9ompWsbN5tRM8Q__nJ7DW/view?usp=sharing",
+						},
+
+						{
+							tituloCert: "SQL con MySQL: Proyecto final",
+							descripcionCert:
+								"Este curso abordó los siguientes tópicos: - Proyectando la base de datos. - Función aleatorio. - Función cliente aleatorio. - Generando ventas y problema con PK. - Stored Procedures y TRIGGERS.",
+							linkAContenido:
+								"https://app.aluracursos.com/course/sql-mysql-proyecto-final",
+							linkACertificado:
+								"https://drive.google.com/file/d/1omPfV9TLuIMw0a0tt1oj0YbdtuCl_5dE/view?usp=sharing",
+						},
+						{
 							tituloCert: "Introducción a SQL - Fundaula",
 							descripcionCert:
 								"Adéntrate en el mundo de las Bases de Datos, conoce los tipos que existen y sus características. Aprenderás cómo se crean y se gestionan Bases de Datos Relacionales y a manejar comandos de SQL para ello.",
@@ -337,22 +418,13 @@ export default function Certificaciones({
 								"https://drive.google.com/file/d/1RCxca5hxfZfAVzvE70yC1gKHgs5lsWKp/view?usp=drive_link",
 						},
 						{
-							tituloCert: "Manejo de Base de Dato - Aprendizaje virtual",
+							tituloCert: "Manejo de Base de Datos - Aprendizaje virtual",
 							descripcionCert:
 								"Cursos completados : Evaluación y Big Data, Desde Cero con MySQL, Visualización de Datos",
 							linkAContenido:
 								"https://cursos.innovacion.gob.ar/course/index.php?categoryid=129",
 							linkACertificado:
 								"https://drive.google.com/file/d/1NziqYaQe9N29Bb3bmR8ic92gvHl54S7-/view?usp=drive_link",
-						},
-						{
-							tituloCert: "Cloud Computing Fundamentals - IBM SkillsBuild",
-							descripcionCert:
-								"This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security. The individual is aware of cloud benefits for users and businesses. The individual has a conceptual understanding of how to create a container, deploy a web app to the cloud, and analyze security in a simulated environment. The earner is aware of the job outlook in cloud computing and the skills required for success in various roles.",
-							linkAContenido:
-								"https://skills.yourlearning.ibm.com/credential/CREDLY-fd600bd9-7565-458c-b5d2-7b5b8b856eeb",
-							linkACertificado:
-								"https://www.credly.com/badges/9b034b77-a682-4b2f-ad46-8827c6471e29/public_url",
 						},
 						{
 							tituloCert: "HTTP: La base de internet - Alura",

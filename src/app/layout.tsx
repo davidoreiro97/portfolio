@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 			"Te doy la bienvenida a mi Portfolio!. Soy David Oreiro, desarrollador web fullstack Jr. con React, Next.js, Node, Express, MySQL y otras tecnologías. También soy estudiante avanzado de ingeniería en sistemas de información.",
 		images: [
 			{
-				url: "/opengraph-image.png",
+				url: "https://davidoreiro97.github.io/portfolio/opengraph-image.png",
 				width: 1200,
 				height: 630,
 				alt: "David Oreiro Portfolio Image",

@@ -100,6 +100,17 @@ body {
 }
 
 /* -------------------- Clases globales -------------------- */
+/* Ventana flotante detalles */
+.texto_importante_ventana_flotante {
+	color: #ffe600;
+	text-shadow: 0px 0px 20px lightyellow;
+	-webkit-text-stroke: 0px;
+}
+.enlaces_ventana_flotante {
+	text-decoration: none;
+	color: #ffe600;
+}
+
 /* Para quitar el scroll cuando se abre el menu responsivo. */
 .no-scroll {
 	overflow: hidden;

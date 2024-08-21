@@ -17,7 +17,8 @@
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	bottom: 94%;
+	top: -10%;
+	z-index: 10;
 }
 .proyecto__header__h2 {
 	font-family: "compacta-bold";
@@ -32,10 +33,10 @@
 	-webkit-text-stroke: 1.6px black;
 	backdrop-filter: blur(1px);
 	height: fit-content;
-	text-wrap: nowrap;
-	white-space: nowrap;
 	font-size: clamp(14px, 3.6em, 3.6em);
 	z-index: 5;
+	max-width: 100%;
+	text-wrap: balance;
 }
 .proyecto__img {
 	width: 100%;

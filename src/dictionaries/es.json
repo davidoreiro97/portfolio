@@ -18,8 +18,8 @@
 	"inicio_url_proyExpUni_exp": "/habilidades",
 
 	"inicio_titulo_proyExpUni_proy": "PROYECTOS",
-	"inicio_text_proyExpUni_proy_1": "2 Completados",
-	"inicio_text_proyExpUni_proy_2": "1 En progreso",
+	"inicio_text_proyExpUni_proy_1": "3 Completados",
+	"inicio_text_proyExpUni_proy_2": "2 En progreso",
 	"inicio_text_proyExpUni_proy_btn": "VER PROYECTOS",
 	"inicio_url_proyExpUni_proy": "/proyectos",
 
@@ -44,6 +44,9 @@
 
 	"proyectos_titulo_1": "Rosario herrería",
 	"proyectos_detalles_1": "<p>- Sitio web realizado con NextJS (Que incluye HTML, CSS, JS y React).</p><p>- El sitio web es de una herrería familiar, no tiene un dominio ya que no lo requerían.</p><p>- Los datos para los productos estan hardcodeados, no cuenta con una BDD aún.</p>",
+	"proyectos_titulo_2": "Buscador de precios Rosario",
+	"proyectos_detalles_2": "<p>- Aplicación realizada con React (Que incluye HTML, CSS, JS), para el backend se utilizó Node y Express.</p><p>- El backend corre en una PC en mi casa utilizada como servidor, se utilizan tuneles para conectar con el backend : el ofrecido por Cloudflare (Zero Trust) y uno de respaldo gratuito (localtunnel) el cual se renueva cada 6h con un script.</p><p>- El <strong class=\"texto_importante_ventana_flotante \" >objetivo</strong> de la app es buscar en tiempo real un producto en los supermercados cercanos a la ubicación del usuario o a una ubicación ingresada por el mismo.</p><p>- <strong class=\"texto_importante_ventana_flotante \" >Nota importante</strong>: Algunas páginas en las que se busca devuelven incoherencias en los productos buscados, por ejemplo al buscar \"gato\" devuelven \"gatorade\" y estos resultados contaminan el resultado final.</p><p>- Algunas direcciones para probar : Garay 950, Uruguay 1400, San luis 650, o cualquiera existente dentro de Rosario, Santa Fe, Argentina.</p><p>- Repositorio frontend : <a class=\"enlaces_ventana_flotante\" href=\"https://github.com/davidoreiro97/BuscadorPreciosRosario\" target=\"_blank\">Github - BuscadorPreciosRosario</a></p><p>- Repositorio backend : <a class=\"enlaces_ventana_flotante\" href=\"https://github.com/davidoreiro97/BuscadorPreciosRosarioBackend\" target=\"_blank\">Github - BuscadorPreciosRosarioBackend</a></p>",
+
 	"proyectos_texto_btn_detalles": "DETALLES",
 	"proyectos_texto_btn_visitar": "VISITAR",
 	"proyectos_titulo_ventanaFlotante": "DETALLES",

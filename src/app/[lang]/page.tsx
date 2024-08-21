@@ -152,7 +152,7 @@ export default function Home({ params }: { params: { lang: string } }) {
 					</p>
 					<Link
 						className={styles.stackCont__otrasTecCont__VER}
-						href="/habilidades"
+						href="/en/habilidades"
 					>
 						<div className={`lineas ${styles.lineasBtn}`} />
 						<span className={styles.stackCont__otrasTecCont__VER__texto}>

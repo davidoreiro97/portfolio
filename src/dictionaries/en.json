@@ -18,8 +18,8 @@
 	"inicio_url_proyExpUni_exp": "/en/habilidades",
 
 	"inicio_titulo_proyExpUni_proy": "PROJECTS",
-	"inicio_text_proyExpUni_proy_1": "2 Completed",
-	"inicio_text_proyExpUni_proy_2": "1 in progress",
+	"inicio_text_proyExpUni_proy_1": "3 Completed",
+	"inicio_text_proyExpUni_proy_2": "2 in progress",
 	"inicio_text_proyExpUni_proy_btn": "SEE PROJECTS",
 	"inicio_url_proyExpUni_proy": "/en/proyectos",
 
@@ -44,6 +44,9 @@
 
 	"proyectos_titulo_1": "Rosario blacksmith",
 	"proyectos_detalles_1": "<p>- Website made with NextJS (Which includes HTML, CSS, JS and React).</p><p>- The website is for a family owned blacksmith shop, it does not have a domain as they did not require it.</p><p>- The data for the products are hardcoded, it doesn't have a BDD yet.</p>",
+	"proyectos_titulo_2": "Rosario Price Searcher",
+	"proyectos_detalles_2": "<p>- Application built with React (including HTML, CSS, JS), with Node and Express used for the backend.</p><p>- The backend runs on a PC at my home used as a server, and tunnels are used to connect with the backend: Cloudflare Zero Trust and a free backup (localtunnel) which renews every 6 hours with a script.</p><p>- The <strong class=\"texto_importante_ventana_flotante\">goal</strong> of the app is to search for a product in real-time at nearby supermarkets based on the user's location or a location entered by the user.</p><p>- <strong class=\"texto_importante_ventana_flotante\">Important Note</strong>: Some pages where the search is conducted return inconsistent results, for example, searching for \"cat\" may return \"Gatorade,\" and these results contaminate the final output.</p><p>- Some addresses to test: Garay 950, Uruguay 1400, San Luis 650, or any existing one within Rosario, Santa Fe, Argentina.</p><p>- Frontend repository: <a class=\"enlaces_ventana_flotante\" href=\"https://github.com/davidoreiro97/BuscadorPreciosRosario\" target=\"_blank\">Github - Rosario Price Searcher</a></p><p>- Backend repository: <a class=\"enlaces_ventana_flotante\" href=\"https://github.com/davidoreiro97/BuscadorPreciosRosarioBackend\" target=\"_blank\">Github - Rosario Price Searcher Backend</a></p>",
+
 	"proyectos_texto_btn_detalles": "DETAILS",
 	"proyectos_texto_btn_visitar": "VISIT",
 	"proyectos_titulo_ventanaFlotante": "DETAILS",

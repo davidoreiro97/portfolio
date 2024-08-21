@@ -1,6 +1,6 @@
 .proyectosContainer {
 	width: 100%;
-	min-height: 66.2vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 }
@@ -13,6 +13,11 @@
 	justify-content: flex-start;
 	margin-top: 20px;
 	gap: 2%;
+}
+@media (max-width: 1040px) {
+	.proyectosContainer__align {
+		justify-content: center;
+	}
 }
 @media (max-width: 824px) {
 	.proyectosContainer__align {
