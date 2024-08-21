@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 	description:
 		"Te doy la bienvenida a mi Portfolio!. Soy David Oreiro, desarrollador web fullstack Jr. con React, Next.js, Node, Express, MySQL y otras tecnologías. También soy estudiante avanzado de ingeniería en sistemas de información.",
 	keywords:
-		"David Oreiro desarrollador web portfolio, diseño pagina web rosario, programador rosario,analista programador rosario",
+		"david oreiro, david oreiro github, david oreiro desarrollo web, david oreiro portfolio, desarrollo web rosario",
 	openGraph: {
 		title: "Desarrollo Web Fullstack | David Oreiro - Portfolio",
 		description:
