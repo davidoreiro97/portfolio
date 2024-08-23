@@ -678,9 +678,9 @@ export default function Certificaciones() {
 							descripcionCert:
 								"Armado y reparación de PC, notebooks, instalación de sistemas operativos y diversos programas, identificación de fallos en componentes. --> El instituto no existe más al día de hoy o cambio de nombre. <--",
 							linkAContenido:
-								"https://drive.google.com/file/d/1YIKalXMgamTA1zCv99UF0JWhh5H3trIU/view?usp=drive_link",
+								"https://drive.google.com/file/d/1gROpZCRCWC6nDxdkXNflJfaLOTXgeWEQ/view?usp=sharing",
 							linkACertificado:
-								"https://drive.google.com/file/d/1YIKalXMgamTA1zCv99UF0JWhh5H3trIU/view?usp=drive_link",
+								"https://drive.google.com/file/d/1gROpZCRCWC6nDxdkXNflJfaLOTXgeWEQ/view?usp=sharing",
 						},
 					]}
 				/>
