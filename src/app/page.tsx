@@ -66,7 +66,7 @@ export default function Home() {
 								className={
 									styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__item
 								}
-								href="https://www.linkedin.com/in/david-oreiro-92a672228/"
+								href="https://www.linkedin.com/in/davidoreiro97/"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="Enlace a LinkedIn"
