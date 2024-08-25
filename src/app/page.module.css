@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 62px;
+	gap: 48px;
 }
 /* Bienvenida contenedor */
 .bienvenidaCont,
@@ -215,16 +215,22 @@
 }
 
 @media (max-width: 900px) {
+	.main {
+		gap: 32px;
+	}
 	.bienvenidaCont__ImgTxtCont__Img {
 		width: 180px;
 		height: 170px;
 	}
 	.bienvenidaCont,
 	.sobremi {
-		margin-top: 60px;
+		margin-top: 40px;
 		font-size: 7px;
 		max-width: 550px;
 		padding: 25px 40px;
+	}
+	.sobremi {
+		margin-top: 28px;
 	}
 	.stackCont {
 		font-size: 7px;

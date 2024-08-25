@@ -206,6 +206,9 @@
 }
 
 @media (max-width: 600px) {
+	.lineasMenuExtender {
+		height: 100vh;
+	}
 	.menu {
 		height: 100%;
 		border-bottom-left-radius: 30px;

@@ -59,7 +59,11 @@ export const Menu = () => {
 							: "bordeMenuDesktop"
 					}
 				/>
-				<div className={`lineasContainer ${styles.lineasMenuContainer}`}>
+				<div
+					className={`lineasContainer ${styles.lineasMenuContainer} ${
+						menuHamburguesaAbierto ? styles.lineasMenuExtender : ""
+					}`}
+				>
 					<div className={`lineas ${styles.lineasMenu}`} />
 				</div>
 

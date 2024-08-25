@@ -103,9 +103,11 @@
 		padding: 8px 12px;
 	}
 }
-@media (max-width: 448px) {
+
+@media (max-width: 500px) {
 	.proyecto {
-		width: 97%;
+		width: 80%;
+		max-width: 350px;
 		height: 200px;
 		padding-top: 10px;
 		flex-direction: row;

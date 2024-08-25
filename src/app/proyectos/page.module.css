@@ -12,7 +12,7 @@
 	align-items: flex-start;
 	justify-content: flex-start;
 	margin-top: 20px;
-	gap: 2%;
+	gap: 20px;
 }
 @media (max-width: 1040px) {
 	.proyectosContainer__align {
@@ -21,11 +21,12 @@
 }
 @media (max-width: 824px) {
 	.proyectosContainer__align {
-		gap: 1%;
+		gap: 20px;
 	}
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 	.proyectosContainer__align {
+		align-content: flex-start;
 		justify-content: center;
 	}
 }
