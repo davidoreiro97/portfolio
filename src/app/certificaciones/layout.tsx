@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 			"Aqui podras encontrar todas mis certificaciones obtenidas a lo largo del tiempo, cuentan con su detalle, su link al contenido y el certificado de finalización.",
 		images: [
 			{
-				url: "/opengraph-image.png",
+				url: "https://davidoreiro97.github.io/portfolio/opengraph-image.png",
 				width: 1200,
 				height: 630,
 				alt: "David Oreiro Portfolio Image",

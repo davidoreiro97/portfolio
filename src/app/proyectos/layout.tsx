@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 			"Aqui podras encontrar todos mis proyectos tanto terminados como en los que me encuentro trabajando junto con sus detalles, repositorio y enlace para visitarlos.",
 		images: [
 			{
-				url: "/opengraph-image.png",
+				url: "https://davidoreiro97.github.io/portfolio/opengraph-image.png",
 				width: 1200,
 				height: 630,
 				alt: "David Oreiro Portfolio Image",

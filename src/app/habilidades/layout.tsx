@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 			"Aqui podras encontrar todas mis habilidades, muchas obtenidas de forma autodidacta y otras mediante cursos los cuales puedes encontrar en la sección de certificaciones, también puedes encontrar mis apuntes al pie de la sección.",
 		images: [
 			{
-				url: "/opengraph-image.png",
+				url: "https://davidoreiro97.github.io/portfolio/opengraph-image.png",
 				width: 1200,
 				height: 630,
 				alt: "David Oreiro Portfolio Image",
