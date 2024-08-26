@@ -62,9 +62,9 @@
 	position: relative;
 	z-index: 10;
 }
-.contactIcon:hover {
+/* .contactIcon:hover {
 	filter: saturate(500%) brightness(2) sepia(100%) hue-rotate(15deg);
-}
+} */
 .bordeRect {
 	position: absolute;
 	width: 102.5%;

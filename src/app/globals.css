@@ -24,11 +24,11 @@
 	--colorBordeExpProyUniStart: #ffe500;
 	--colorBordeExpProyUniEnd: #fff387;
 	--colorIconsGmail: white;
-	--colorFondoCuadradoStart: #ffe500;
-	--colorFondoCuadradoEnd: #fff387;
+	--colorFondoCuadradoStart: #ffff00fd;
+	--colorFondoCuadradoEnd: #ffef61;
 	--colorTituloCartel: #9bd0d4;
-	--colorIconoContactStart: #91b5de;
-	--colorIconoContactEnd: #37c6f6;
+	--colorIconoContactStart: #ffe500;
+	--colorIconoContactEnd: #fff387;
 	--backgroundBody: radial-gradient(circle, #64b4ce, #4c5a7e);
 	--fondoPantalla: radial-gradient(circle, #3f578e, #302c43);
 	--fondoBotones: radial-gradient(circle, #17d6ff 0%, #00afd4 100%);
@@ -72,8 +72,8 @@
 	--fondoPantalla: radial-gradient(circle, #77592b, #362914);
 	--gradiente-svgBorde-inicio: #d07d00;
 	--gradiente-svgBorde-fin: #eca53b;
-	--colorIconoContactStart: #eca53b;
-	--colorIconoContactEnd: #d07d00;
+	--colorIconoContactStart: #ffe500;
+	--colorIconoContactEnd: #fff387;
 	--colorDiamante1: #ff9900a3; /* Color neón principal */
 	--colorDiamante2: #f5930070; /* Color neón secundario */
 	--fondoBotones: radial-gradient(circle, #ffe500 0%, #fff387 100%);

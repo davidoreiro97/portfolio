@@ -73,6 +73,13 @@ export default function Home() {
 								title="Enlace a LinkedIn"
 							>
 								<LinkedIn width={48} height={48} className="contactIcon" />
+								<span
+									className={
+										styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__item__text
+									}
+								>
+									LinkedIn
+								</span>
 							</a>
 							<a
 								className={
@@ -85,7 +92,15 @@ export default function Home() {
 								title="Enlace a Github"
 							>
 								<GitHub width={48} height={48} className="contactIcon" />
+								<span
+									className={
+										styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__item__text
+									}
+								>
+									GitHub
+								</span>
 							</a>
+
 							<a
 								className={
 									styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__item
@@ -97,7 +112,15 @@ export default function Home() {
 								title="Enlace a chat de Whatsapp"
 							>
 								<Whatsapp width={48} height={48} className="contactIcon" />
+								<span
+									className={
+										styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__item__text
+									}
+								>
+									WhatsApp
+								</span>
 							</a>
+
 							<div
 								className={
 									styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__gmailContainer
@@ -112,6 +135,13 @@ export default function Home() {
 									title="davidoreiro97@gmail.com - Ver"
 								>
 									<Gmail width={48} height={48} className="contactIcon" />
+									<span
+										className={
+											styles.bienvenidaCont__ImgTxtCont__TxtCont__footer__item__text
+										}
+									>
+										Gmail
+									</span>
 								</button>
 							</div>
 						</nav>

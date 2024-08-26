@@ -86,11 +86,12 @@
 	position: relative;
 	height: 100%;
 	display: flex;
-	align-items: space-between;
-	justify-content: center;
+	justify-content: space-evenly;
+	align-items: flex-start;
 	gap: 10px;
 	padding-top: 16px;
 }
+
 .bienvenidaCont__ImgTxtCont__TxtCont__footer__gmailContainer {
 	position: relative;
 	height: fit-content;
@@ -98,11 +99,24 @@
 .bienvenidaCont__ImgTxtCont__TxtCont__footer__item {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background: transparent;
 	border: 0px;
 	cursor: pointer;
+	text-decoration: none;
+	font-family: "willowbody";
+	font-size: 1.4em;
+}
+.bienvenidaCont__ImgTxtCont__TxtCont__footer__item__text {
+	font-family: "willowbody";
+	color: var(--colorIconoContactStart);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1), -1px -1px 1px rgba(0, 0, 0, 1),
+		1px -1px 1px rgba(0, 0, 0, 1), -1px 1px 1px rgba(0, 0, 0, 1); /* Sombra para dar efecto "stroke" */
+}
+.bienvenidaCont__ImgTxtCont__TxtCont__footer__item:hover {
+	filter: saturate(500%) brightness(2) sepia(100%) hue-rotate(15deg);
 }
 /* Stack contenedor */
 .stackCont {
@@ -257,7 +271,8 @@
 	}
 	.bienvenidaCont,
 	.sobremi {
-		width: 95%;
+		width: 90%;
+		max-width: 450px;
 		margin-top: 40px;
 		font-size: 7px;
 		padding: 25px 20px;
@@ -269,10 +284,6 @@
 	}
 	.stackCont {
 		width: 90%;
-	}
-	.bienvenidaCont__ImgTxtCont__TxtCont__footer__item {
-		width: 42px;
-		height: 42px;
 	}
 	.bienvenidaCont__ImgTxtCont__TxtCont__footer {
 		padding-top: 8px;
