@@ -60,7 +60,11 @@ export default function Home() {
 							</strong>{" "}
 							{idioma.inicio_texto_bienvenidos_3}
 						</p>
-
+						<p
+							className={`${styles.bienvenidaCont__ImgTxtCont__TxtCont__p} ${styles.localizacion}`}
+						>
+							Rosario, Santa Fe, Argentina
+						</p>
 						<nav className={styles.bienvenidaCont__ImgTxtCont__TxtCont__footer}>
 							<a
 								className={

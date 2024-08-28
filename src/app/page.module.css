@@ -88,10 +88,14 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: flex-start;
-	gap: 10px;
-	padding-top: 16px;
+	gap: 0px;
 }
 
+.localizacion {
+	padding-top: 6px;
+	text-align: center;
+	color: var(--colorIconoContactStart);
+}
 .bienvenidaCont__ImgTxtCont__TxtCont__footer__gmailContainer {
 	position: relative;
 	height: fit-content;
